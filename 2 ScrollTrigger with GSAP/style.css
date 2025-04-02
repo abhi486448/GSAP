@@ -9,7 +9,10 @@ body{
     height: 100%;
     width: 100%;
 }
-#page1{
+body{
+    overflow-x: hidden;
+}
+/* #page1{
     height: 100%;
     width: 100%;
     background-color: lightblue;
@@ -51,4 +54,29 @@ h2{
     position: relative;
     padding: 10px;
     background-color: yellow;
+} */
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(167, 215, 231);
+    padding: 5vw 0;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page2 h1{
+    font-size: 40vw;
+    font-weight: 500;
+    text-transform: uppercase;
 }
